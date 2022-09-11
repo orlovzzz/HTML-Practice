@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lang = "en">
+        <title>Webpage</title>
+        <style>
+            body {
+                color: #301010;
+                text-align: center;
+                font-size: 11pt;
+                background: white;
+                height: 20pt;
+                font-size: 180%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Регистрация</h1>
+        <form id="form" action="pr_1.11.html">
+            <p>ФИО:
+                <input type="text" name="name" placeholder="Фамилия Имя Отчество" required></imput>
+                <br>Телефон:
+                <input type="text" name="phone" placeholder="Мобильный телефон" required></imput>
+                <br>E-mail:
+                <input type="text" name="email" placeholder="E-mail" required></imput>
+                <br>Пароль:
+                <input type="text" name="password" placeholder="Пароль" required></imput>
+                <br><label for="sex">Ваш пол:</label>
+                <select name="sex">
+                    <option value="male">Мужcкой</option>
+                    <option value="female">Женский</option>
+                    <option value="not">Не указано</option>
+                </select>
+                <br>Какие языки программирования вы знаете?<br>
+                <input type="checkbox" checked name="java"/>Java</input><br>
+                <input type="checkbox" checked name="ptn"/>Python</input><br>
+                <input type="checkbox" checked name="c++"/>C++</input><br>
+                <input type="checkbox" checked name="c#"/>C#</input><br>
+                Стаж работы:<br>
+                <input type="radio" checked name="-1year"/>До 1 года</input><br>
+                <input type="radio" checked name="-1year"/>1-3 года</input><br>
+                <input type="radio" checked name="-1year"/>Больше 3-х лет</input><br>
+                <input type="submit" value="Отправить"></input>
+            </p> 
+        </form>
+    </body>
+</html>

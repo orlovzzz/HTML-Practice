@@ -1,0 +1,43 @@
+.wndw  {
+    width: 400px;
+    height: 150px;
+    outline: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 13px rgba(0,0,0,.5);
+    margin-left: 550px;
+    margin-top: 30px;
+}
+
+#marker-list {
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+#number-list {
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+span{
+    color: orange;
+    text-decoration: underline solid orange;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+body {
+    font-family: sans-serif;
+    background-color: #3D3D3D;
+    color: #fff;
+}
+
+h2 {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: Oswald;
+    text-decoration: underline solid white;
+}

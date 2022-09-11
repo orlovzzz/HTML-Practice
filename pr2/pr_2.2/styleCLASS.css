@@ -1,0 +1,15 @@
+#block{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 250px;
+}
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+body {
+    font-family: sans-serif;
+    background-color: #3D3D3D;
+    color: #fff;
+}
