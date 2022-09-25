@@ -80,6 +80,6 @@ h1 {
     gap: 15px;
 }
 
-.menu1 {
-    margin-top: 300px;
+div.content-container > img:nth-child(even) {
+    order: -1;
 }
