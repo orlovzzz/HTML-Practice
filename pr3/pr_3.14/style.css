@@ -80,9 +80,9 @@ h1 {
     gap: 15px;
 }
 
-/*div.content-container > img:nth-child(even) {
-    order: 0;
-} */
+div.content-container > img:nth-child(even) {
+    order: -1;
+}
 
 .qwe {
     margin-top: 350px;

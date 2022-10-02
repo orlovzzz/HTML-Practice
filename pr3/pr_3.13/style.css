@@ -40,7 +40,6 @@ h1 {
 }
 
 .menu:hover {
-    border: 2px solid;
     border-radius: 2px;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
 }
