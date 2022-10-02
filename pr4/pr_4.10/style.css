@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  background: #222831;
+  color: white;
+}
+header,
+nav,
+section,
+.content-container,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em 8em;
+  background: #161a20;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.3);
+}
+#logo-ref {
+  width: 50px;
+  transition: 0.3s;
+}
+#logo-ref:hover {
+  transform: scale(1.2);
+}
+nav {
+  justify-content: space-between;
+  width: max-content;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 0.3em;
+  transition: 0.3s;
+}
+nav a:hover {
+  border: 1px solid #f05454;
+}
+
+section {
+  width: 100%;
+}
+
+footer {
+  background: #161a20;
+  padding: 3em;
+}
+
+
+.gradient-class {
+  display: flex;
+  width: 150px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #108CC5, #00C4CD, #4DEE74);
+  border-radius: 10px;
+  font-weight: bolder;
+  box-shadow: 8px 7px rgba(0, 0, 0, 0.3);
+}
+
+#home {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  height: auto;
+  margin-top: 20px;
+}
+
+#section-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  height: auto;
+  margin-top: 20px;
+}
+
+.gradient-class.first {
+  background: linear-gradient(45deg, #d13881,#ed8f6b,#e8dca4);
+}
+
+#section-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  height: auto;
+  margin-top: 20px;
+}
+
+.gradient-class.second {
+  background: linear-gradient(45deg, #121117, #00A89B);
+}
+
+#section-3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  height: auto;
+  margin-top: 20px;
+}
+
+#section-3:hover {
+  justify-content: space-around;
+}
+
+.gradient-class.third {
+  background: linear-gradient(45deg,#FFFFFF, #ED9277)
+}
+
+#section-4 {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  margin-top: 20px;
+}
+
+#div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+}
+
+.gradient-class.fourth {
+  background: linear-gradient(45deg,#FFFFFF, #0000FF);
+}
+
+#section-6 {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.gradient-class.sixth {
+  background: linear-gradient(45deg, #9EC8FF, #85BAFF, #85BAFF);
+}
+
+.gradient-class.sixth.self {
+  align-self: flex-end;
+}
+
+#section-7 {
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.gradient-class.seventh {
+  background: linear-gradient(45deg, #B799F0, #9B6EDD, #946BC7);
+}
