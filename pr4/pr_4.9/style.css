@@ -152,14 +152,6 @@ footer {
   background: linear-gradient(45deg, #9EC8FF, #85BAFF, #85BAFF);
 }
 
-/*.qwe {
-  display: flex;
-  flex-direction: row;
-  padding-top: 640px;
-  justify-content: space-around;
-  width: 350px;
-} */
-
 .gradient-class.sixth.self {
   align-self: flex-end;
 }
