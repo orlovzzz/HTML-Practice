@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Работа с flexbox</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="main.js"></script>
+        <header>
+            <a id="logo-ref" href="#"><img src="https://cdn-icons-png.flaticon.com/512/3698/3698156.png" alt="Logo" height="40" width="40"></a>
+            <nav>
+                    <a href="#home">Главная</a>
+                    <a href="#section1">Раздел 1</a>
+                    <a href="#section2">Раздел 2</a>
+                    <a href="#section3">Раздел 3</a>
+            </nav>
+        </header>
+        <section class="content-container">
+            <div class="second" onmouseover="doDisplay()">
+                <div class="first">
+                    <img src="qwe2.png" width="130px" height="100px">
+                    <h1>Золотой браслет "Пушкинский ЮЗ"</h1>
+                </div>
+                <div class="third">
+                    <img src="qwe2.png" width="130px" height="100px">
+                    <h1>Золотой браслет "Пушкинский ЮЗ"</h1>
+                </div>
+            </div>
+            <div class="second">
+                <div class="first" onmouseover="doDisplay()">
+                    <img src="qwe1.png" width="130px" height="100px">
+                    <h1>Серебряное шейное украшение с фианитами "SERGEY GRIBNYAKOV"</h1>
+                </div>
+                <div class="third">
+                    <img src="qwe1.png" width="130px" height="100px">
+                    <h1>Серебряное шейное украшение с фианитами "SERGEY GRIBNYAKOV"</h1>
+                    <div style="display: inline-block">
+                        <br>
+                        <input type="radio" checked name="size" class="inp">39</input>
+                        <input type="radio" checked name="size" class="inp">40</input>
+                        <input type="radio" checked name="size" class="inp">41 </input>
+                    </div>
+                    <br>
+                    <input type="submit" value="Купить" class="but"></input>
+                </div>
+            </div> 
+            <div class="second">
+                <div class="first">
+                    <img src="qwe3.png" width="130px" height="100px">
+                    <h1>Золотое кольцо с сапфирами и бриллиантами "SERGEY GRIBNYAKOV"</h1>
+                </div>
+                <div class="third">
+                    <img src="qwe3.png" width="130px" height="100px">
+                    <h1>Золотое кольцо с сапфирами и бриллиантами "SERGEY GRIBNYAKOV"</h1>
+                </div>
+            </div>
+        </section>   
+    </body>
+</html>
