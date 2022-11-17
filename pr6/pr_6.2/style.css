@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+body::-webkit-scrollbar-track:hover {
+    background: linear-gradient(45deg, red, blue);
+}
+
+#first, #second, #third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first {
+    border-radius: 72% 28% 32% 68% / 23% 30% 70% 77%;
+    border: solid 5px;
+    height: 150px;
+    width: 150px;
+    animation: anim 5s infinite linear;
+}
+
+#second {
+    border-radius: 72% 28% 74% 26% / 54% 80% 20% 46%;
+    border: solid 3px;
+    height: 120px;
+    width: 120px;
+    animation: anim2 5s infinite linear;
+}
+
+#third {
+    border: solid 1px;
+    height: 80px;
+    width: 80px;
+    border-radius: 83% 17% 94% 6% / 29% 73% 27% 71%;
+    animation: anim3 5s infinite linear;
+}
+
+body {
+    background-color: black;
+    color:aquamarine;
+}
+
+@keyframes anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes anim3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes anim2 {
+    0% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
